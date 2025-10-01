@@ -1,0 +1,29 @@
+.content {
+    margin-top: 10%;
+    max-width: 600px;
+    
+}
+
+.content h1 {
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.content p {
+    margin: 20px 0 70px;
+    color: #d0d0d0;
+    animation-delay: 0.5s;
+    font-size: 25px;
+    
+}
+
+.content .btn {
+    padding: 15px 80px;
+    font-size: 22px;
+    animation-delay: 1s;
+}
+
+.btn:hover {
+    border-top-right-radius: 30px;
+}
+

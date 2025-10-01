@@ -1,0 +1,13 @@
+footer {
+    margin-top: 15px;
+    background-color: #0033ffb0; /* Fundo branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Espaçamento interno */
+}
+
+footer p {
+    padding-top: 6px;
+    margin: 0; /* Remove margens padrão */
+    font-size: 18px; /* Tamanho da fonte do texto */
+    color: #ffffff;
+}

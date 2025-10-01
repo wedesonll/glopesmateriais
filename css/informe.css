@@ -1,0 +1,134 @@
+.informe {
+    margin-top: 10%;
+   
+}
+.image-contain {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.image-iten {
+   
+    padding: 15px;
+    width: 240px;
+    background: #fff;
+    text-align: center;
+}
+.wpp {
+    color: #24b921;
+}
+
+.ttk {
+    color: #000;
+}
+
+.ig {
+    color: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+.fb {
+    color: #1a2e95;
+}
+
+
+@media(max-width: 768px){
+    /* Ajustes para os blocos de contato no celular/tablet */
+.image-iten {
+  max-width: 90%;       /* ocupa só 90% da tela */
+  margin: 10px auto;    /* centralizado */
+  padding: 15px;        /* menos espaçamento interno */
+  font-size: 14px;      /* reduz fonte */
+}
+
+.image-iten h2,
+.image-iten h3 {
+  font-size: 16px;      /* títulos menores */
+  text-align: center;   /* centraliza títulos */
+}
+
+.image-iten p {
+  font-size: 13px;      /* texto menor */
+  text-align: center;   /* centraliza texto */
+}
+
+.image-iten a {
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+}
+
+.image-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+    scroll-behavior: smooth;
+}
+
+.image-item {
+    text-align: center;  
+    padding: 50px;
+    
+}
+
+.informe h2 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 20px; 
+}
+
+.image-box {
+    width: 250px;
+    height: 350px; 
+    background-size: cover; 
+    background-position: top; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s;
+}
+
+.image-box:hover {
+    transform: scale(1.05); 
+}
+
+.informe-paragraph {
+    font-size: 20px;        
+    margin-top: 15px;   
+      
+}
+.informe p{
+    font-size: 20px; /* Tamanho do texto */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    margin-bottom: 15px; /* Espaço abaixo dos parágrafos */
+}
+
+
+@media(max-width: 768px){
+    /* Ajustes para os blocos de contato no celular/tablet */
+.image-container {
+  max-width: 90%;       /* ocupa só 90% da tela */
+  margin: 10px auto;    /* centralizado */
+  padding: 15px;        /* menos espaçamento interno */
+  font-size: 14px;      /* reduz fonte */
+}
+
+.image-container h2,
+.image-container h3 {
+  font-size: 16px;      /* títulos menores */
+  text-align: center;   /* centraliza títulos */
+}
+
+.image-container p {
+  font-size: 13px;      /* texto menor */
+  text-align: center;   /* centraliza texto */
+}
+
+.image-container a {
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 8px;
+}
+}

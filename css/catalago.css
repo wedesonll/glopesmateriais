@@ -1,0 +1,51 @@
+/* Reset e base */
+
+/* Catálogo */
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(29, 53, 87, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(29, 53, 87, 0.2);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-card h2 {
+  font-size: 1.4rem;
+  margin: 1rem;
+  color: #e63946;
+}
+
+.product-card p {
+  margin: 0 1rem 1rem;
+  font-size: 0.8rem;
+}
+
+.price {
+  display: block;
+  margin: 0 1rem 1rem;
+  font-weight: 600;
+  color: #1d3557;
+  font-size: 1rem;
+}
+
+

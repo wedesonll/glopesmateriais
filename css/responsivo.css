@@ -1,0 +1,83 @@
+
+
+
+
+
+
+/*
+
+
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+.menu-toggle{
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* Tablets (até 768px) 
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 20px;
+  }
+
+  .image-item {
+    width: 150px;
+  }
+}
+
+ Celulares (até 480px) *
+@media (max-width: 480px) {
+   Menu vira hambúrguer *
+  .menu ul {
+    display: none;
+    flex-direction: column;
+    background: #444;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: 10px;
+  }
+
+  .menu ul.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  
+  .image-container {
+    gap: 10px;
+  }
+
+  .image-item {
+    width: 120px;
+  }
+
+  .image-item p {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+*/
