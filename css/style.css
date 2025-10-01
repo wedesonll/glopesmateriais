@@ -1,0 +1,159 @@
+@import url('./hero.css');
+@import url('./nav.css');
+@import url('./content.css');
+@import url('./feature.css');
+@import url('./informe.css');
+@import url('./inicio.css');
+@import url('./footer.css');
+@import url('./catalago.css');
+@import url('./responsivo.css');
+@import url('./geral.css');
+
+
+
+
+
+
+
+.btn1 {
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 12px 20px;
+  border-radius: 30px;
+  color: #fff;
+  font-weight: bold;
+  transition: 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  box-shadow: 0 4px 6px rgba(49, 0, 0, 0.595);
+}
+
+.btn1 i {
+  margin-right: 10px 10px;
+  font-size: 1.3rem;
+}
+
+/* Cores específicas */
+.instagram {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+.instagram:hover {
+  background-color: #c8235c;
+}
+
+.whatsapp {
+  background: linear-gradient(45deg, #25d366, #008e34) ;
+}
+.whatsapp:hover {
+  background-color: #1ebe57;
+}
+
+.facebook {
+  background: linear-gradient(45deg, #3b5998, #0e2861) ;
+}
+.facebook:hover {
+  background-color: #2d4373;
+}
+
+.tiktok {
+  background: linear-gradient(45deg, #000000, #00e5ff , #000000, #ff0044, #000000 ) ;
+}
+.tiktok:hover {
+  background-color: #000000;
+}
+
+
+.btn1:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ===== MENU RESPONSIVO ===== */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: relative;
+}
+
+.menu ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #000000;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .menu ul {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: #5e58d8;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    padding: 20px 0;
+  }
+
+  .menu ul.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .menu .btn {
+    display: none;   
+  }
+}
+
+
+/* ===== Responsividade ===== */
+
+/* Para celular e tablet (até 991px) -> ocupa largura normal */
+@media (max-width: 991px) {
+  body {
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  header {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+
+/* Para PC (a partir de 992px) -> fica centralizado na tela */
+@media (min-width: 992px) {
+  body {
+    justify-content: center;
+    align-items: center;
+  }
+
+  header {
+    margin: 0;
+  }
+}
